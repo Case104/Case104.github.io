@@ -4,42 +4,42 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
 </head>
+<body>
+  <header>
+    <h1>Jonathan's Blog</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="projects.html>">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About me</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <ol>
+      <li><a href="blog/git.html">An Introduction to Git and GitHub</li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+      <li><a href="blog-template.html">Placeholder</a></li>
+     </ol>
+  </aside>
+  <main>
+    <h1>Git Workflow for Pushing Content</h1>
+    <h4>December 6, 2015</h4>
 
-<main>
-  <h1>Git Workflow for Pushing Content</h1>
-  <h4>December 6, 2015</h4>
-
-  <section>
     <h2>Git and Github, understanding the difference</h2>
-    <p>
-      Git and GitHub are both tools used to store and share your work, as well as collaborate and work as a team. After learning that JavaScript and Java have nothing in common, I approached Git and Github as seperate entities at first, but quickly learned that they do work together to provide effective data sharing and version control.
-    </p>
-    <p>
-      I'm still working out the details, but it is my understanding that Git was origionally created as a tool for version control. Git lives locally on your computer, and stores data like a snapshot. Each commit that you make acts as a "savepoint" that you can return to. Files reside in three states, commited, modified, and staged. Committed means that the data is stored locally. Modified means that changes have been made, but nothing has been saved yet. Staged means that you have marked a file to go into your next committed snapshot.
-
-      For more, and better written information, check out <a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics">this link</a>.   
-    </p>
-    <p>
-        Github on the other hand was created to allow sharing of information, and storage remotely, outside of your computer. It works with Git in how it stores and shares information, using the same snapshot model. I think the biggest benefit of Github is that many people can be working in seperate "branches" that have no effect on the source code while they are working. Once they are done, it goes through a sort of peer review called a pull request. This is great because it allows developers to work side by side in a stable environment, while contributing work as well as checking over each other's code.
-    </p>
+    <p>Git and GitHub are both tools used to store and share your work, as well as collaborate and work as a team. After learning that JavaScript and Java have nothing in common, I approached Git and Github as seperate entities at first, but quickly learned that they do work together to provide effective data sharing and version control.</p>
+    <p>I'm still working out the details, but it is my understanding that Git was origionally created as a tool for version control. Git lives locally on your computer, and stores data like a snapshot. Each commit that you make acts as a "savepoint" that you can return to. Files reside in three states, commited, modified, and staged. Committed means that the data is stored locally. Modified means that changes have been made, but nothing has been saved yet. Staged means that you have marked a file to go into your next committed snapshot.<br>For more, and better written information, check out <a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics">this link</a>.   </p>
+    <p>Github on the other hand was created to allow sharing of information, and storage remotely, outside of your computer. It works with Git in how it stores and shares information, using the same snapshot model. I think the biggest benefit of Github is that many people can be working in seperate "branches" that have no effect on the source code while they are working. Once they are done, it goes through a sort of peer review called a pull request. This is great because it allows developers to work side by side in a stable environment, while contributing work as well as checking over each other's code.</p>
     <h2>Saving your work and pushing it to GitHub, the Workflow</h2>
-    <p>
-      I'm still learning the "how", but so far this workflow has been working for me to push my code from my local machine to GitHub.<br>
-      1.  Check your status, current branch, and run a pull before doing anything. This makes sure that you are going into your new work clean. Do this by typing "git status", "git branch", and "git pull".<br>
-      2. Create a new branch. "git checkout -b branch-name".<br>
-      3. Create your code.<br>
-      4. Add your work to be committed. "git add work.extension"<br>
-      5. Commit your work. "git commit -m "your comment here""<br>
-      6. Push your work to github. Log in if necessary. "git push origin branch-name"<br>
-      7. Complete your pull request on GitHub.<br>
-      8. Move back to your master branch. "git checkout master"<br>
-      9. Pull the information back to your computer. "git fetch origin master"<br>
-      10. Merge them. "git merge origin/master"<br>
-      11. Delete your pulled branches. "git branch -d branch-name"
-    </p>
+    <p>I'm still learning the "how", but so far this workflow has been working for me to push my code from my local machine to GitHub.<br>1.  Check your status, current branch, and run a pull before doing anything. This makes sure that you are going into your new work clean. Do this by typing "git status", "git branch", and "git pull".<br>2. Create a new branch. "git checkout -b branch-name".<br>3. Create your code.<br>4. Add your work to be committed. "git add work.extension"<br>5. Commit your work. "git commit -m "your comment here""<br>6. Push your work to github. Log in if necessary. "git push origin branch-name"<br>7. Complete your pull request on GitHub.<br>8. Move back to your master branch. "git checkout master"<br>9. Pull the information back to your computer. "git fetch origin master"<br>10. Merge them. "git merge origin/master"<br>11. Delete your pulled branches. "git branch -d branch-name"</p>
     <h2>Closing</h2>
-    <p>
-      I hope that if you are as new as I am that I was able to save you some time and headache. I must have watched a video on the workflow 10+ times to get it down. If any information that I have provided is incorrect, please reach out to me at casejtech@gmail.com. I would be happy to update it!
-    </p>
-  </section>
-</main>
+    <p>I hope that if you are as new as I am that I was able to save you some time and headache. I must have watched a video on the workflow 10+ times to get it down. If any information that I have provided is incorrect, please reach out to me at casejtech@gmail.com. I would be happy to update it!</p>
+  <footer>
+    &copy; 2015 Jonathan Case. Follow me <a href="http://twitter.com/intent/tweet?screen_name=CaseJTech">@CaseJTech</a>
+  </footer>
+</body>
+</html>

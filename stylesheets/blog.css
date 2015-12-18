@@ -1,0 +1,48 @@
+/**** ASIDE STYLES ****/
+
+aside {
+	width: 15%;
+	float: left;
+	position: absolute;
+	background-color: #41385F;
+	border: 1px solid #2D224F;
+}
+
+aside a {
+	text-decoration: none;
+	color: #756D8F;
+	font-size: .825em;
+	text-align: left;
+}
+
+aside a:hover {
+	color: #2D224F;
+}
+
+/**** FOOTER STYLES ****/
+
+footer {
+	background-color: #8C5774;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	float: bottom;
+	padding-top: 12px;
+	border-top: 2px solid #3D1E4C;
+	border-bottom: 2px solid #3D1E4C;
+	color: #703C58;
+}
+
+footer a {
+	text-decoration: none;
+	color: #CBACBD;
+}
+
+footer a:hover {
+	color: #5D2142;
+}
+footer p {
+	text-align: center;
+	color: #703C58;
+}

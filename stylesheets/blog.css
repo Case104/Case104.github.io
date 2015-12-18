@@ -19,6 +19,9 @@ aside a:hover {
 	color: #2D224F;
 }
 
+aside li {
+	clear: both;
+}
 /**** FOOTER STYLES ****/
 
 footer {

@@ -68,7 +68,7 @@ nav li {
 
 main {
 	padding: 0 20%;
-	text-align: center;
+	text-align: left;
 	font-size: 1.25em;
 	color: #302237;
 }
@@ -80,6 +80,28 @@ main a {
 
 main a:hover {
 	color: #302237;
+}
+
+/**** H STYLES ****/
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
 }
 
 /**** FOOTER STYLES ****/

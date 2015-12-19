@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <title>case Study: CSS Box Model</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+  <header>
+    <h1>case Study:</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="git.html">Blog</a></li>
+      <li><a href="../about.html">About me</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <ul>
+      <li><a href="git.html">An Introduction to Git and GitHub</li>
+      <li><a href="css-concepts.html">Understanding the CSS Box Model</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+   </ul>
+  </aside>
+  <main>
+    <h1>Understanding the CSS Box Model</h1>
+    <h4>December 19, 2015</h4>
+    <h3>Introducing the Box Model</h3>
+    <img src="../imgs/boxmodel.gif" id="boxModel"/>
+    <p>The box model is how most web browsers interpret HTML elements in terms of spacing and layout. In fact, any HTML element can be considered a box. Each box has four main properties. They are margin, border, padding, and content.</p>
+    <h5>Margin</h5>
+    <p>Margin is the space in the box furthest from the content. The space itself is completely transparent, it will show the element behind it. One important concept of margins is that they are shared. If you have two HTML elements next to each other with a margin of 20 pixels, they will be 20 pixels apart. </p>
+    <h5>Border</h5>
+    <p>The border outlines the visible portion of the content. A border should include a line size, type, and color. An example of this would be <span class="code">border: 2px dashed red;</span>.</p>
+    <h5>Padding</h5>
+    <p>Padding is the space between the content and the border. Unlike margin, padding will take on the properties of the element, and is not shared space.</p>
+    <h5>Content</h5>
+    <p>The content itself will streatch to the size required in order to house the information contained. Otherwise, content dimensions can be specified using the width and height properties.</p>
+    <h3>Syntax and Shorthand</h3>
+    <p>You can define the margin and padding of the object in a couple of different ways. The first is to define each side on its own. In this case, your code would look like this:</p>
+    <p class="code">padding-left: 5px;<br>padding-right: 5px;<br>padding-top: 5px;<br>padding-bottom: 5px;</p>
+    <p>If all sides are to have the same size padding or margin, you could simply define the value by using the shorthand:</p>
+    <p class="code"> padding: 0;</p>
+    <p>If the top and bottom had a padding of 5, and the left and right had a padding of 2, you could use the shorthand:</p>
+    <p class="code">padding: 5 2;</p>
+    <p>Lastly, shorhand for all sides is clockwise, starting with the top. It is demonstrated like this:
+    <p class="code">padding: 5 2 5 2;</p>
+    <p>Although my example is shown only using padding, the same method works for margins and borders as well.</p>
+    <h3>Size of the Element</h3>
+    <p>Now that we have an understanding of the box model and its properties, lets discuss the actual size of the element. First, lets create a theorecital box.</p>
+    <p class="code">.box {<br>height: 200px;<br>width:400px;<br>padding:20px 10px;<br>margin: 40px;<br>border: 2px solid black;<br>}</p>
+    <p>In order to determine the width, you must add the width of the content, the padding-right, padding-left, border multiplied by two, margin-left, and margin-right. The same concept applies to the height. In this case, the box would have a width of 504 pixels, and a height of 320 pixels.</p>
+  </main>
+  <footer>
+    &copy; 2015 Jonathan Case. Tweet me <a href="http://twitter.com/intent/tweet?screen_name=CaseJTech">@CaseJTech</a>
+  </footer>
+</body>
+</html>

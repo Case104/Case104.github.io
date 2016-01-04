@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>case Study: Arrays &amp; Hashes</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+  <header>
+    <h1>case Study:</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="git.html">Blog</a></li>
+      <li><a href="../about.html">About me</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <ul>
+      <li><a href="git.html">An Introduction to Git and GitHub</li>
+      <li><a href="css-concepts.html">Understanding the CSS Box Model</a></li>
+      <li><a href="arrays-hashes.html">Arrays and Hashes</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+      <li><a href="../blog-template.html">Placeholder</a></li>
+   </ul>
+  </aside>
+  <main>
+    <h1>Arrays and Hashes</h1>
+    <h4>January 3, 2016</h4>
+    <h3>Storing data</h3>
+      <p>Arrays and hashes both serve as mediums to store data. More spefically, they alllow you to store a collection of data including variables, strings, integers, floats, and other objects including arrays and hashes. This is an important function because you will come across many instances where you will need to be able access</p>
+      <h3>Arrays</h3>
+      <p>Arrays are defined by assigning elements to a variable. One way to this would be to type <code>array = [1, 2, 3]</code>. Again, you can also assign other types of data to an array, like so <code>array = [1, "two", 3.0]</code>. Once you have an array defined, you can add to it using the <code>.push</code> or <code><<</code>. You can remove the last element of the array using the <code>.pop</code> method.</p>
+      <p>To access the data in an array, you would call its index. An array's index starts at 0, and increases by one for each element. Lets explore the concept with this sample array.<blockquote><code>array = [1, 2, 3, 4] // array[0] => 1 // array[1] => 2</code></blockquote>As you can see, accessing 0 returns the first piece of data in the array, and it progresses linearly from there.</p>
+      <h3>Hashes</h3>
+      <p>Hashes store their data using key => value pairs. An example of their syntax is as follows. <blockquote><code>my_hash = {"key" => "value", "name" => "Jonathan", "age" => 24}</code></blockquote>The data is not stored in any particular order, and can be accesses by referencing the key.<code>my_hash["key"]</code> would return the value<code>"value"</code>.</p>
+      <h3>Comparing the two</h3>
+      <p>First and foremost, arrays and hashes both have their place as a tool to store your collection of data. Where they differ is in their methods of retreiving the information. Arrays are always ordered, and the data is stored in a logical progression. Hashes on the other hand, have no specified order, and are more often used when the key and value are easily associated. 
+    </main>
+  <footer>
+    &copy; 2015 Jonathan Case. Tweet me <a href="http://twitter.com/intent/tweet?screen_name=CaseJTech">@CaseJTech</a>
+  </footer>
+</body>
+</html>

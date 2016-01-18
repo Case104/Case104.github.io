@@ -6,6 +6,7 @@ aside {
 	position: absolute;
 	background-color: #41385F;
 	border: 1px solid #2D224F;
+	padding-right: 10px;
 }
 
 aside a {
@@ -30,7 +31,6 @@ footer {
 	height: 50px;
 	position: absolute;
 	left: 0;
-	float: bottom;
 	padding-top: 12px;
 	border-top: 2px solid #3D1E4C;
 	border-bottom: 2px solid #3D1E4C;

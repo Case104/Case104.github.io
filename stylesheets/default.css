@@ -84,10 +84,10 @@ main a:hover {
 
 /**** H STYLES ****/
 
-h1 {
+h1, h2, h3, h4, h5  {
 	text-align: center;
 }
-
+/*
 h2 {
 	text-align: center;
 }
@@ -102,7 +102,7 @@ h4 {
 
 h5 {
 	text-align: center;
-}
+}*/
 
 /**** FOOTER STYLES ****/
 
@@ -112,7 +112,6 @@ footer {
 	height: 50px;
 	position: absolute;
 	left: 0;
-	float: bottom;
 	border-top: 2px solid #3D1E4C;
 	border-bottom: 2px solid #3D1E4C;
 	color: #703C58;
@@ -133,6 +132,16 @@ footer p {
 
 /**** ANCHOR FOOTER ****/
 
-.anchorFooter {
+/*.anchorFooter {
 	bottom: 0;
+}*/
+
+/**** ABOUT PIC ****/
+
+#aboutpic {
+	position: relative;
+	margin: 10px 0px 0px 170px;
+	width: 50%;
+	border: 2px solid #3D1E4C;
 }
+
